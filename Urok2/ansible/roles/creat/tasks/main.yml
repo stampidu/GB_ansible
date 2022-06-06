@@ -1,0 +1,22 @@
+---
+- name: create directory
+  file:
+    path: "{{ dir.path }}"
+    state: directory
+
+- name: create file
+  file:
+    path: "{{ file.path }}"
+    state: touch
+
+- name: create group
+  group:
+    name: "{{ group.path }}"
+    state: present
+
+- name: create user
+  user:
+    name: "{{ name.path }}"
+    password: "{{ pass.path }}"
+    comment: Alex S.
+    group: "{{ group.path }}"
