@@ -1,0 +1,15 @@
+---
+dir:
+  path: "/tmp/create_test/"
+
+file:
+  path: "/tmp/create_test/primer.conf"
+
+group:
+  path: "Alex"
+
+name:
+  path: "Alex"
+
+pass:
+  path: "123"
