@@ -1,0 +1,5 @@
+---
+- name: Creat directory & file
+  hosts: create_hosts
+  roles:
+    - creat
